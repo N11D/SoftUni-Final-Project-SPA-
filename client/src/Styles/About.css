@@ -1,0 +1,40 @@
+
+.about-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(194, 183, 29);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .about-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .about-container h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .about-container p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .about-container a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+  }
+  
+  .about-container a:hover {
+    border-bottom: 2px solid #007BFF;
+  }
+  
