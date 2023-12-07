@@ -21,7 +21,6 @@ export default function Navigation(){
         <span>Проекти</span>
         <ul className="sub-menu">
           <li><Link to="/projects/current">Текущи</Link></li>
-          <li><Link to="/projects/future">Бъдещи</Link></li>
         </ul>
       </li>
       <li className="nav-item">
